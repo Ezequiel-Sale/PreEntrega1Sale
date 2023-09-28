@@ -1,0 +1,7 @@
+.number-cart {
+    position: relative;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: palegreen;
+    width: 100%;
+}
+ .links a{
+    margin-right: 15px;    
+ }
+
