@@ -1,25 +1,23 @@
-import React from 'react'
-import './navbar.css'
-import CartWidget from '../cartWidget/CartWidget'
+import React from "react";
+import "./navbar.css";
+import CartWidget from "../cartWidget/CartWidget";
 
 function NavBar() {
   return (
     <>
-    <header className='container'>
-        <nav className='navbar'>
-            <span>
-                Sower
-            </span>
-            <div className='links'>
-              <a href="">link 1</a>
-              <a href="">link 2</a>
-              <a href="">link 3</a>
+      <header className="container">
+        <nav className="navbar">
+          <span>Sower</span>
+          <div className="links">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
             <CartWidget />
-            </div>
+          </div>
         </nav>
-    </header>
+      </header>
     </>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
